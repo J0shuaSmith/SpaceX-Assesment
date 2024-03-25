@@ -1,7 +1,8 @@
 
 SpaceX Data Pipeline
 
-**Pipeline Architecture
+**Pipeline Architecture**
+
 The SpaceX Data Pipeline is designed to extract, process, and load SpaceX launch data into a MySQL database while also storing a processed version in an Amazon S3 bucket. The pipeline consists of several components:
 
 Data Extraction: The pipeline starts by extracting the latest SpaceX launch data from the SpaceX API using a HTTP GET request.
@@ -14,14 +15,16 @@ Data Loading to MySQL RDS: Simultaneously, the processed DataFrame is loaded int
 
 
 
-**Data Partitioning Strategy
+**Data Partitioning Strategy**
+
 S3 Bucket Structure: The processed data is partitioned within the S3 bucket based on the year of the launch. This allows for efficient data retrieval and management, especially when dealing with large volumes of data spanning multiple years.
 
 MySQL Table: Although not explicitly partitioned within the table structure, the MySQL table creation occurs dynamically within the pipeline, ensuring the table exists before loading data. This allows for flexibility in handling schema changes and ensures data integrity.
 
 
 
-**Operational Procedures
+**Operational Procedures**
+
 AWS Configuration: Ensure proper configuration of AWS credentials (access key, secret key) and region settings for S3 bucket access and MySQL RDS connection.
 
 Dependencies Installation: Make sure all necessary dependencies (Prefect, pandas, boto3, pymysql, etc.) are installed in the environment where the pipeline is executed.
