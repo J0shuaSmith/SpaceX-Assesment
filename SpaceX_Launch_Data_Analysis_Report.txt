@@ -1,10 +1,11 @@
-SpaceX Launch Data Analysis Report (2022)
+***SpaceX Launch Data Analysis Report (2022)***
 
 
-Introduction:
+**Introduction:**
+
 This report provides a detailed analysis of SpaceX launch data for the year 2022. The data includes information such as launch dates, mission success, crew details, rocket details, and more.
 
-Launch Summary:
+**Launch Summary:**
 
 Mission Name: Crew-5
 	Launch Date: October 5, 2022
@@ -35,5 +36,6 @@ Mission Name: Crew-5
 		Wikipedia: https://en.wikipedia.org/wiki/SpaceX_Crew-5
 		Reddit: https://www.reddit.com/r/spacex/comments/xvm76j/rspacex_crew5_launchcoast_docking_discussion_and/
 
-Conclusion:
+**Conclusion:**
+
 The provided data offers insights into SpaceX launches in the year 2022, focusing on the successful Crew-5 mission. The report highlights the mission details, including the crew members, launchpad, payloads, and core landing information.
